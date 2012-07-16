@@ -30,5 +30,35 @@
 .navbar .nav .active > a:hover {
   color: #ffeab1;
   text-decoration: none;
-  background-color: #222222;
+  background-color: #0b4d41;
+}
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #005947;
+  background-image: -moz-linear-gradient(top, #0b4d41, #33675e);
+  background-image: -ms-linear-gradient(top, #0b4d41, #33675e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0b4d41), to(#33675e));
+  background-image: -webkit-linear-gradient(top, #0b4d41, #33675e);
+  background-image: -o-linear-gradient(top, #0b4d41, #33675e);
+  background-image: linear-gradient(top, #0b4d41, #33675e);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#0b4d41', endColorstr='#2a564e', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar .divider-vertical {
+  width: 1px;
+  height: 40px;
+  margin: 0 9px;
+  overflow: hidden;
+  background-color: #0b4d41;
+  border-right: 1px solid #33675e;
 }
