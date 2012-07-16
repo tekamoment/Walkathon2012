@@ -33,6 +33,10 @@
   background-color: #0b4d41;
 }
 
+/* For the navbar present on all pages. 
+ * This currently presents a dark-light gradient.
+ * Reverse the values to get a light-dark gradient.
+*/
 .navbar-inner {
   min-height: 40px;
   padding-right: 20px;
@@ -54,6 +58,9 @@
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
+/* For the vertical dividers between navbar elements.
+ * Currently presents the opposite of what the standard divider looks like.
+*/
 .navbar .divider-vertical {
   width: 1px;
   height: 40px;
