@@ -2,7 +2,7 @@
 1. Stuff in Nanum font face via CSS @font-face declaration
 
 2. Add language changer to all pages (refer to walkathon_2012.html in lang_KO branch for instructions on how to do so.)
-	- INCLUDE SCRIPT AT TOP OF ALL PAGES
+	- INCLUDE SCRIPT AT TOP OF ALL PAGES (DONE!)
 
 3. Copy over info from last year to take look at how it will be.
 
