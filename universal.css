@@ -1,0 +1,34 @@
+/*
+* Universal CSS file to be included in all files
+*/
+
+
+/* For elements in a navbar under a <li> then a <a> [NON-ACTIVE] */
+.navbar .nav > li > a {
+  float: none;
+  padding: 9px 10px 11px;
+  line-height: 19px;
+  color: #ffc017;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* For elements in a navbar under a <li> then a <a> [NON-ACTIVE]
+ * This is when the element has been hovered upon
+ */
+.navbar .nav > li > a:hover {
+  color: #ffeab1;
+  /*ffdb7c*/
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* For elements in a navbar under a <li> then a <a> [ACTIVE]
+ * This is when the element has been hovered upon and not hovered upon.
+ */
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  color: #ffeab1;
+  text-decoration: none;
+  background-color: #222222;
+}
