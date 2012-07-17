@@ -34,8 +34,8 @@
 }
 
 /* For the navbar present on all pages. 
- * This currently presents a dark-light gradient.
- * Reverse the values to get a light-dark gradient.
+ * This currently presents a light-dark gradient.
+ * Reverse the values to get a dark-light gradient.
 */
 .navbar-inner {
   min-height: 40px;
@@ -68,4 +68,19 @@
   overflow: hidden;
   background-color: #0b4d41;
   border-right: 1px solid #33675e;
+}
+
+/* Changes the color of the brand in the navbar to any selected color.
+ * Only temporary before official logo is gotten.
+ */
+ 
+ .navbar .brand {
+  display: block;
+  float: left;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+  color: #ffc017;
 }
