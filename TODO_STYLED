@@ -9,3 +9,9 @@
 
 4. Change colours of nav-bar to AIS (bluish) green (bar) and gold (labels). (DONE!)
 
+<<<<<<< HEAD
+5. Create universal CSS file to apply universal styles to all pages (refer to #4).
+	- Search bootstrap.css file to do so.
+=======
+
+>>>>>>> master
