@@ -1,0 +1,86 @@
+/*
+* Universal CSS file to be included in all files
+*/
+
+
+/* For elements in a navbar under a <li> then a <a> [NON-ACTIVE] */
+.navbar .nav > li > a {
+  float: none;
+  padding: 9px 10px 11px;
+  line-height: 19px;
+  color: #ffc017;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* For elements in a navbar under a <li> then a <a> [NON-ACTIVE]
+ * This is when the element has been hovered upon
+ */
+.navbar .nav > li > a:hover {
+  color: #ffeab1;
+  /*ffdb7c*/
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* For elements in a navbar under a <li> then a <a> [ACTIVE]
+ * This is when the element has been hovered upon and not hovered upon.
+ */
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  color: #ffeab1;
+  text-decoration: none;
+  background-color: #0b4d41;
+}
+
+/* For the navbar present on all pages. 
+ * This currently presents a light-dark gradient.
+ * Reverse the values to get a dark-light gradient.
+*/
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #005947;
+  background-image: -moz-linear-gradient(top, #33675e, #0b4d41);
+  background-image: -ms-linear-gradient(top, #33675e, #0b4d41);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33675e), to(#0b4d41));
+  background-image: -webkit-linear-gradient(top, #33675e, #0b4d41);
+  background-image: -o-linear-gradient(top, #33675e, #0b4d41);
+  background-image: linear-gradient(top, #33675e, #0b4d41);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#33675e', endColorstr='#0b4d41', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* For the vertical dividers between navbar elements.
+ * Currently presents the opposite of what the standard divider looks like.
+*/
+.navbar .divider-vertical {
+  width: 1px;
+  height: 40px;
+  margin: 0 9px;
+  overflow: hidden;
+  background-color: #0b4d41;
+  border-right: 1px solid #33675e;
+}
+
+/* Changes the color of the brand in the navbar to any selected color.
+ * Only temporary before official logo is gotten.
+ */
+ 
+ .navbar .brand {
+  display: block;
+  float: left;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+  color: #ffc017;
+}
