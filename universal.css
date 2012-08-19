@@ -206,7 +206,7 @@
           border-radius: 0 0 4px 4px;
 }
 /* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
-@media (min-width: 980px) {
+/*@media (min-width: 980px) { */
   .subnav-fixed {
     position: fixed;
     top: 40px;
@@ -234,7 +234,7 @@
        -moz-border-radius: 0;
             border-radius: 0;
   }
-}
+/*}*/
 
 /* Body and structure
 USE THIS TO FIX THE TOP OF EACH PAGE.
