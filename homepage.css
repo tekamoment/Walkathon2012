@@ -8,9 +8,67 @@ body {
   padding-top: 0px;
 }
 
-/*
-TO BE IMPLEMENTED WHEN BACKGROUND IMAGE IS FINISHED
+
+/*TO BE IMPLEMENTED WHEN BACKGROUND IMAGE IS FINISHED
 .hero-unit {
-  color: #fff
+  color: #ffffff;
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+*/
+
+#slideshow{
+width:333px;
+height:250px;
+overflow:hidden;
+}
+
+/*.photooverlay{
+position:absolute;
+left:0px;
+bottom:0px;
+width:610px;
+height:100px;
+background:url("images/transp.png");
+padding: 10px;
+}
+*/
+
+/*.jflownext, .jflowprev{
+visibility:hidden;
+}
+*/
+/*
+ #slideshow:hover .jflownext{
+	visibility:visible;
+	position:absolute;
+	top:40%;
+	right:325px;
+	z-index:999;
+	width: 30px;
+	height: 30px;
+	text-indent: -999999px;
+	background: url("images/gray_next.png") no-repeat 0 -30px;
+}
+
+ #slideshow:hover .jflowprev {
+ 	visibility:visible;
+	position:absolute;
+	top:40%;
+	left:15px;
+	z-index:999;
+	width: 30px;
+	height: 30px;
+	text-indent: -999999px;
+	background: url("images/gray_prev.png") no-repeat 0 -30px;
+}
+
+#slideshow .jflownext:hover,
+#slideshow .jflowprev:hover {
+	background-position: 0 0;
 }
 */

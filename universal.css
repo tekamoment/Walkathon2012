@@ -87,9 +87,11 @@
 
 /* Jumbotrons - Taken from the Bootstrap docs
 -------------------------------------------------- */
-.jumbotron {
+/*.jumbotron {
   position: relative;
 }
+*/
+
 .jumbotron h1 {
   margin-bottom: 9px;
   font-size: 81px;
@@ -243,7 +245,7 @@ body {
   position: relative;
   padding-top: 90px;
   background-color: #fff;
-  /*<background-image: url(../img/grid-18px-masked.png);-->*/
+  /*background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
   background-position: 0 40px;
 }
