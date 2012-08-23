@@ -134,6 +134,7 @@
   font-size: 30px;
   line-height: 36px;
 }
+
 /* Specific jumbotrons
 ------------------------- */
 /* supporting docs pages */
@@ -249,3 +250,21 @@ body {
   background-repeat: repeat-x;
   background-position: 0 40px;
 }
+
+/* Subhead (other pages)
+------------------------- */
+.subhead {
+  text-align: left;
+  /*border-bottom: 1px solid #ddd;*/
+}
+.subhead h1 {
+  font-size: 60px;
+}
+.subhead p {
+  margin-bottom: 20px;
+}
+.subhead .navbar {
+  display: none;
+}
+
+

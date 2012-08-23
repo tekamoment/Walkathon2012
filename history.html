@@ -5,8 +5,10 @@
 		<title>AIS Charity Walkathon 2012</title>
 			
 			<!-- Script-->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
     	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    	<script type="text/javascript" src="application.js"></script>
 		
 		<!-- To be fixed -->
 		<!--<script type="text/javascript" src="application.js"></script>
@@ -20,7 +22,7 @@
 	</head>
 	<!-- scroll spy-ified stuff -->
 	<!--<body data-spy="scroll" data-target=".subnav" data-offset="50">-->
-	<body>
+	<body data-spy="scroll" data-target=".subnav">
 		<!-- The navbar! -->
 		<div class = "navbar navbar-fixed-top">
 			<div class = "navbar-inner">
@@ -64,17 +66,27 @@
 			</div>
 		</div>
 		
-	<div class="container">
-		
 	<!-- Individual pages -->
-<header class="jumbotron subhead" id="overview">
-	<div class = "container">
-	<h1>Four years walking strong.</h1>
-  	<p class="lead">Take a look at the history of one of the most anticipated events of the year.</p>
-	</div>
-</header>
 
 	<div class="container">
+	
+	    <!-- History nav
+    ================================================== -->
+<header class="jumbotron subhead" id="overview">
+  	<h1>Four years walking strong.</h1>
+  	<p class="lead">Take a look at the history of one of the most anticipated events of the year.</p>
+  	<div class="subnav">
+    	<ul class="nav nav-pills">
+      	<li><a href="#overview">Overview</a></li>
+      	<li><a href="#2012">2012</a></li>
+      	<li><a href="#2011">2011</a></li>
+      	<li><a href="#2010">2010</a></li>
+      	<li><a href="#2009">2009</a></li>
+    	</ul>
+  	</div>
+</header>
+	
+	
 <!-- The overview -->
 		<section id="overview">
 		<div class = "hero-unit">
@@ -126,7 +138,9 @@
 		<p> 10 million had earlier been sent via TRANS TV to help with the Padang earthquake relief effort.</p>
 		<p>We would again like to thank every student, parent and staff member who contributed to the success of Walkathon 2009 and feel confident that our four recipients will make good use of the funds. It has been a really positive experience to be able to increase our contribution to these very worthy causes in such a fun way.</p>
 		</section>
-		
+
+		</div>
+		</div>
 		</div> <!--container-->
 	</body>
 </html>
