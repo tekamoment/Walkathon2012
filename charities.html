@@ -4,13 +4,19 @@
 		<meta charset ="utf-8">
 		<title>AIS Charity Walkathon 2012</title>
 			
+			<!-- Script-->
+		<script src="assets/js/jquery.js"></script>
+    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+    	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    	<script type="text/javascript" src="application.js"></script>
+			
 			<!-- The styles -->
     	<link href="assets/css/bootstrap.css" rel="stylesheet">
     	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     	<link href="universal.css" rel="stylesheet">
     	
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".subnav">
 		<!-- The navbar! -->
 		<div class = "navbar navbar-fixed-top">
 			<div class = "navbar-inner">
@@ -35,19 +41,8 @@
 					</ul>
 					<!-- SIGN UP BUTTON (should be dropdownable) -->
 					<ul class = "nav pull-right">
-					<li class = "divider-vertical"></li>
-					<!-- LANGUAGE SWTICHER -->
-							<li id = "menu1" class = "dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown">
-								English
-									<b class = "caret"></b>
-								</a>
-								<ul class = "dropdown-menu">
-									<li><a href = "lang_KO/charities.html">한국어</a></li>
-								</ul>
-							</li>
 						<li class="divider-vertical"></li>
-						<a class="btn btn-primary" href = "#"><i class = "icon-edit icon-white"></i> Sign Up!</a>
+						<a class="btn btn-primary" href = "http://www.planetreg.com/E83054617246478"><i class = "icon-edit icon-white"></i> Sign Up!</a>
 					</ul>
 						
 				</div>
@@ -55,11 +50,83 @@
 		</div>
 		<div class = "container">
 		
-	<!-- Individual pages -->
-	<header class="jumbotron subhead" id="overview">
-  	<h1>Charities through the years.</h1>
+		    <!-- Charities nav
+    ================================================== -->
+<header class="jumbotron subhead" id="overview">
+  	<h1>Charities we've supported.</h1>
   	<p class="lead">Helping organisations near and far.</p>
-	</header>
+  	<div class="subnav">
+    	<ul class="nav nav-pills">
+      	<li><a href="#whatwedo">What we do</a></li>
+      	<li><a href="#2012">2012 Charities</a></li>
+      	<li><a href="#previous">Previous Charities</a></li>
+    	</ul>
+  	</div>
+</header>
+
+<!-- The overview -->
+		<section id="whatwedo">
+		<div class = "hero-unit">
+			<h1> What we do: </h1>
+			<p> </p>
+			<p> Each year our student Charities team surveys all students to find out the kinds of charities where they would like their funds to go. Once this has been done the team researches specific charities and finds projects that fit their criteria. After contacting the charities and meeting them the team makes a final decision on which charities we will support in the coming walkathon.  </p>
+			<p> <strong> Keep looking for an update on the 2012 Charities on this page! </strong> </p>
+		</div>
+		</section>
+		
+<!-- 2012 charities --->
+		<section id="2012">
+		<div class = "page-header">
+		<h1> 2012 Charities </h1>
+		</div>
+		<h3> Coming soon!! </h3>
+		</section>
+		
+<!-- Previous charities -->
+		<section id ="previous">
+		<div class = "page-header">
+		<h1> Previous Charities <small> Over Rp. 300 million raised! </small> </h1>
+		</div>
+		
+		<h2> YKAKI </h2>
+		<p> Care for Cancer Kids Indonesian Foundation -  was established to support children with cancer and their parents. The story began when two mothers in Indonesia (Mrs. Ira and Mrs. Pinta) had  sons  that were diagnosed with leukemia. At that time the best treatment for them was in the Netherlands. Both families moved away from Jakarta to Netherlands for treatment. During treatment the families were able to stay at a "Ronald McDonald House", which provides free temporary housing for children with cancer and the parents.  The boys were also provided an education during their treatment.  On their return to Indonesia, after their sons' treatments were completed, they founded YKAKI in Jakarta, based upon their experience in the Netherlands. YKAKI is committed to helping children with cancer, especially those whose families are economically challenged. YKAKI provides free temporary housing for the children and their parents while they are in Jakarta for treatment.  They also provide education for the children. </p>
+		<p> Find out more about YKAKI <strong><a href="http://www.ykaki.org/">here</a></strong>.</p>
+		
+		<h2> Rumah Yatim </h2> 
+		<p> Rumah Yatim is an organisation which aims to support orphans and disadvantaged children to have brighter future.  They offer accommodation and educational opportunities.  They have a branch in Kemang, Jakarta and additional hostels all over Indonesia.</p>
+		<p> Find out more about Rumah Yatim <strong><a href="http://www.rumah-yatim.org">here</a></strong>.</p>
+		
+		<h2> Borneo Orangutan Survival Foundation (BOS)</h2>
+		<p> Hundreds of orphaned orangutans have been rescued from the perils that killed their mothers; but in the absence of a parent, each of the rescued orangutan must learn how to survive on their own before they can be released back into the wild. BOS Foundation´s reintroduction programs aim to teach these orphans their basic skills while caring for them around the clock.</p>
+		<p> We have lent a hand and taken part in the mission by adopting two orangutans Lomon and Kesi. This way, we have been able to contribute to the cost of feeding and looking after them.  Additional money was used to re-plant trees in Kalimantan in our name.</p>
+		<p> Find out more about the BOS <strong><a href="http://orangutan.or.id/home">here</a></strong>. </p>
+		
+		<h2> Jakarta Animal Aid Network (JAAN) </h2>
+		<p> JAAN is a non-governmental, non-profit organization established in January 2008 to help protect Indonesian wildlife and to improve the welfare of Jakarta’s domestic animals. JAAN serves as an information center and a central meeting point for volunteers interested in animal welfare issues and enlists the help of individuals and Indonesian authorities to rescue animals from exploitation and to decrease the trade in endangered wildlife. JAAN aims to raise awareness of animal welfare issues by providing educational materials and presentations in and around Jakarta.</p>
+		<p> In 2009 and 2010 we supported JAAN by funding repairs to their raptor cage in the Thousand Islands and completing the Islands project. </p>
+		<p> Find out more about the JAAN <strong><a href="http://jakartaanimalaid.com/">here</a></strong>. </p>
+		
+		<h2>Yayasan Berita Sehat </h2>
+		<p> Yayasan Belita Sehat, the Indonesian branch of The Foundation for Mother and Child Health (FMCH) works to improve the lives of mothers and children in local communities by providing programmes focused on health, nutrition, education, and sustainable skills training. A not-for-profit independent organization, they work with socially and/or financially disadvantaged communities regardless of their race, creed or gender. </p>
+		<p> Activities in Jakarta include health, hygiene and nutrition education for mothers and community health workers; access to medical care for both mothers and children; Early Childhood learning, supplementary feeding programmes and growth monitoring for young children; and skills training for mothers. Our charities team went on a big shopping spree to buy stationary, toiletries, cleaning materials, classroom activity packs and books as well as spending the remaining money providing teacher training for their staff. Many of our Y12 students carried out work experience placements with this organization and so were able to see where our money had been well spent. </p>
+		<p> Find out more about Yayasan Berita Sehat <strong><a href="http://www.motherandchildhealth.org/indonesia.html">here</a></strong>. </p>
+		
+		<h2> Yayasan Kampung Kids </h2>
+		<h3> From a letter dated in 2009: </h3>
+		<blockquote>
+		<h3> "Dear AIS families and staff, </h3>
+		<p> With money raised from the 2009 walkathon the Australian International School (AIS) has been sponsoring 4 students from Kampung Kids to complete their elementary school education. They are Rara Azahra, A. Kahfi Ridho, Anisa Fitriah and M.Ibnu Khadafi. They are now in the sixth grade of elementary school and are getting ready to enter junior high school in July 2011. Their fathers are construction labor workers, while their mothers are housewives. They are really eager to study and have dreams to change their underprivileged lives in the future. </p>
+		<p> We hope we can help them to reach their dream and get out of poverty when they grow up.We on behalf of Yayasan Kampung Kids especially these 4 students and families would like to thank you, AIS students and teachers who have put in so much effort to keep them in school. </p>
+		<p> Yours sincerely, </p>
+		<h3> Julia on behalf of Yayasan Kampung Kids"</h3>
+		</blockquote>
+		<p> Find out more about Yayasan Kampung Kids <strong><a href="http://www.kampungkids.org/">here</a></strong>. </p>
+		
+		<h2> Habitat for Humanity Indonesia </h2> 
+		<p> Habitat for Humanity Indonesia is not a hand-out program. Volunteers and home partner families are directly involved in building Habitat homes. They are sold to the selected families at no-profit-for-interest terms. Home partner families are chosen not only based on their level of need but also on their ability and willingness to pay the monthly amortization and provide “sweat equity”. As part of their investment, they must render volunteer hours to build their own homes and those of their future neighbors. Our money goes on working here…..as one family pays back the funds another family benefits. </p>
+		<p> Find out more about Habitat for Humanity Indonesia <strong><a href="http://www.habitatindonesia.org/">here</a></strong>. </p>
+		
+		</section>
 		
 		</div> <!-- container-->
 	</body>

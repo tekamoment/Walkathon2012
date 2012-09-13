@@ -3,6 +3,12 @@
 	<head>
 		<meta charset ="utf-8">
 		<title>AIS Charity Walkathon 2012</title>
+						<!-- Script-->
+		<script src="assets/js/jquery.js"></script>
+    	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+    	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    	<script type="text/javascript" src="application.js"></script>
+			
 			
 			<!-- The styles -->
     	<link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -10,7 +16,7 @@
     	<link href="universal.css" rel="stylesheet">
     	
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".subnav" data-offset = "100">
 		<!-- The navbar! -->
 		<div class = "navbar navbar-fixed-top">
 			<div class = "navbar-inner">
@@ -35,19 +41,8 @@
 					</ul>
 					<!-- SIGN UP BUTTON (should be dropdownable) -->
 					<ul class = "nav pull-right">
-					<li class="divider-vertical"></li>
-							<!-- LANGUAGE SWTICHER -->
-							<li id = "menu1" class = "dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown">
-								English
-									<b class = "caret"></b>
-								</a>
-								<ul class = "dropdown-menu">
-									<li><a href = "lang_KO/info.html">한국어</a></li>
-								</ul>
-							</li>
 						<li class="divider-vertical"></li>
-						<a class="btn btn-primary" href = "#"><i class = "icon-edit icon-white"></i> Sign Up!</a>
+						<a class="btn btn-primary" href = "http://www.planetreg.com/E83054617246478"><i class = "icon-edit icon-white"></i> Sign Up!</a>
 					</ul>
 						
 				</div>
@@ -61,14 +56,90 @@
   	<p class="lead">Here are some useful tips for the Walkathon at Ragunan Zoo.</p>
     <div class = "subnav">
     	<ul class="nav nav-pills">
-      	<li><a href="#preevent">Pre-event</a></li>
-      	<li><a href="#ontheday">On the day</a></li>
-      	<li><a href="#after">After</a></li>
+      	<li><a href="#preparation">Preparation</a></li>
+      	<li><a href="#whattowear">What to wear</a></li>
+      	<li><a href="#arrival">Arrival</a></li>
+      	<li><a href="#location">Location</a></li>
+      	<li><a href="#routes-laps-counting">Routes / Laps / Counting</a></li>
+      	<li><a href="#lookingafteryourself">Looking after yourself</a></li>
+      	<li><a href="#responsibility">Responsibility</a></li>
     	</ul>
   	</div>
-</header>
+	</header>
+		<section id="preparation">
+		<div class = "page-header">
+		<h1> Preparation </h1>
+		</div>
+		<p> Everyone is advised to have a large and healthy breakfast before arriving at the zoo and drink plenty of fluids the night before. The event will start at 7.00am and run for 4 hours, finishing at 
+			11.00am. There are prizes for ‘Early Bird’ participants so try and get to the zoo early.</p>
+		</section>
+		
+		<section id="whattowear">
+		<div class = "page-header">
+		<h1> What to wear </h1>
+		</div>
+		<p> These are the basic things you need to bring and wear on the day. Feel free to bring cameras as well! </p>
+		<ul>
+		<li> Your Charity Walkathon T shirt or (if you don’t have one) your House T shirt and shorts or trousers. </li>
+		<li> Comfortable shoes. </li>
+		<li> Hat and sunblock.  </li>
+		</ul>
+		</section>
+		
+		<section id="arrival">
+		<div class = "page-header">
+		<h1> Arrival </h1>
+		</div>
+		<p> When you arrive at Ragunan Zoo, you must pay Rp. 10000 to park and Rp. 5000 per person to enter the zoo. </p>
+		<p> Enter the zoo through <strong>Pintu Gerbang Utama</strong>. </p>
+		<p> Right after you go through the gates, turn right. The registration desks will be right ahead. </p>
+		<p><i class = "icon-warning-sign"> </i> <strong>Students MUST REGISTER before they start walking.</strong></p>
+		<p></p>
+		</section>
+		
+		<section id="location">
+		<div class = "page-header">
+		<h1> Location </h1>
+		</div>
+		<p> <a href = "map2011_110914.pdf">Here </a> is a map of the zoo with the walking route highlighted and marked out. </p>
+		</section>
+		
+		<section id="routes-laps-counting">
+		<div class = "page-header">
+		<h1> Routes / Laps / Counting </h1>
+		</div>
+		<p> Students from Pejaten will follow the longer course and Kemang students the shorter loop. Please follow the signs and pay attention to advice from the marshalling team. </p>
+		<p> If a student from Kemang wants to walk with a Pejaten student or their parent on the longer route they may. They should collect an additional stamp at the half way point so that the recorded distance is accurate.</p>
+		</section>
+		
+		<section id="lookingafteryourself">
+		<div class = "page-header">
+		<h1> Looking after yourself </h1>
+		</div>
+		<p> Students may take time out to rest at any point in the four hours and resume walking when they feel motivated. </p>
+		<p> Free drinks (water and isotonic) will be provided to all participants.</p>
+		<p>Healthy snacks (1 muesli bar and fruit) will be provided to all participants.</p>
+		<p> After the event you will need to stretch your muscles. You should continue to re-hydrate and have a long sleep on Sunday morning! </p>
+		</section>
+		
+		<section id="responsibility">
+		<div class = "page-header">
+		<h1> Responsibility </h1>
+		</div>
+		<p>Students are representing AIS in a public place so they need to adhere to usual codes of behaviour and dress. Pejaten students do not need to have a parent accompany them, but of course we would encourage parents to join in.</p>
+		<p>Kemang students will need to have a parent or responsible adult with them as teachers will be completing duties and are not directly responsible for student welfare. </p>
+		</section>
+		
+		
 		
 		
 	</div> <!-- container -->
 	</body>
 </html>
+
+		<!--<section id="whattodo">
+		<div class = "page-header">
+		<h1> What to do </h1>
+		</div>
+		<!-- LISTIFY! -->
+		</section>-->
