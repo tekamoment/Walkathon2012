@@ -72,3 +72,10 @@ visibility:hidden;
 	background-position: 0 0;
 }
 */
+
+.thumbnail > img {
+  display: block;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}

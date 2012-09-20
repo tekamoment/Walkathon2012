@@ -267,7 +267,14 @@ body {
   display: none;
 }
 
+.blockquote {
+	font-size: 12px;
+}
+
 
 .adimage {
-  max-height: 400px;
+  max-height: 100px;
+  max-width: 300px;
+  margin-left: 800px;
+  margin-top: -70px;
 }
